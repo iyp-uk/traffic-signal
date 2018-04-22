@@ -2,7 +2,7 @@
 
 ## Circuit
 
-> Before you start make sure you've read "How to connect an LED" below.
+> Before you start make sure you've read ["How to connect an LED"](../README.md#how-to-connect-an-led).
 
 ![pi](../assets/fritzing_pi.png)
 

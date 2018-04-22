@@ -72,7 +72,7 @@ Using ohm's law (U = R * i):
 ```
 Vsource = 3.3V
 Vled = 2.2V
-Vresistor = Vsource - Vled = 2.8V
+Vresistor = Vsource - Vled = 1.1V
 R = Vsource / i = 1.1V / 16mA = 68.75ohm
 ```
 [closest existing resistor value](https://en.wikipedia.org/wiki/E-series_of_preferred_numbers) = 82ohm

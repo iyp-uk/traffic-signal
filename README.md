@@ -51,25 +51,31 @@ Arduino:
 - 20mA (arduino's max output current) as the LED's forward current
 - 5V (arduino's pin output voltage) as the source voltage
 
-It's a simple Ohm's law, but there's even simpler: an online LED calculator: http://led.linear1.org/1led.wiz 
-
-Response: [150 ohms](http://led.linear1.org/1led.wiz?VS=5;VF=2.2;ID=20) 
-
 Using ohm's law (U = R * i):
+```
 Vsource = 5V
 Vled = 2.2V
 Vresistor = Vsource - Vled = 2.8V
-R = Vsource / i = 2.8V / 20mA = 140ohm, [closest existing resistor value](https://en.wikipedia.org/wiki/E-series_of_preferred_numbers) = 150ohm
+R = Vsource / i = 2.8V / 20mA = 140ohm
+```
+[closest existing resistor value](https://en.wikipedia.org/wiki/E-series_of_preferred_numbers) = 150ohm
+
+It's a simple Ohm's law, but there's even simpler: an online LED calculator: http://led.linear1.org/1led.wiz
+
+Response: [150 ohms](http://led.linear1.org/1led.wiz?VS=5;VF=2.2;ID=20)
 
 Raspberry pi:
 - 16mA forward current
 - 3.3V source voltage
 
 Using ohm's law (U = R * i):
+```
 Vsource = 3.3V
 Vled = 2.2V
 Vresistor = Vsource - Vled = 2.8V
-R = Vsource / i = 1.1V / 16mA = 68.75ohm, [closest existing resistor value](https://en.wikipedia.org/wiki/E-series_of_preferred_numbers) = 82ohm
+R = Vsource / i = 1.1V / 16mA = 68.75ohm
+```
+[closest existing resistor value](https://en.wikipedia.org/wiki/E-series_of_preferred_numbers) = 82ohm
 
 Response: [82 ohms](http://led.linear1.org/1led.wiz?VS=3.3;VF=2.2;ID=16)
 
